@@ -39,7 +39,7 @@
       .header {
         background: #fff;
       }
-      
+
       /*COLUMN STYLES*/
       .column {
         width: 200px;
@@ -58,14 +58,11 @@
         display: inline-block;
         width: 50%;
         float: left;
-        /*margin: 0 5px 0 0;*/
       }
       
       .cell-ext {
         box-sizing: border-box;
-        /*margin: 0 0 0 5px;*/
         display: inline-block;
-        /*color: white;*/
         width: 50%;
         float: left;
         text-align: left;
@@ -78,7 +75,6 @@
       .swm {
         display: flex;
         justify-content: center;
-        /*background-color: #ffe6e6;*/
       }
       .swm a {
         color: #f00;
@@ -94,7 +90,6 @@
       .nec {
         display: flex;
         justify-content: center;
-        /*background-color: #e6f2ff;*/
       }
       .nec .cell-market{
         color: #000;
@@ -111,11 +106,23 @@
       .nec a:visited {
         color: #0066cc;
       }
+      
+      /*FOOTER STYLES*/
+      footer {
+        position: fixed;
+        bottom: 10px;
+        width: 80%;
+        margin: 0 auto;
+      }
+      footer p {
+        text-align: right;
+      }
     </style>
   </head>
   <!--https://rvass82.github.io/presentation/-->
   <body>
     <div class="header">
+      
       <h1>NPC Presentation Schedules</h1>
     </div>
     <section class="nec">  
@@ -664,5 +671,8 @@
         </div>
       </div>      
     </section>
+    <footer>
+      <p>R.Vass 5/10/2019</p>
+    </footer>
   </body>
 </html>
