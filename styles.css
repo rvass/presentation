@@ -103,6 +103,26 @@ p {
   color: #0066cc;
 }
 
+/*TEN STYLES*/
+.ten {
+  display: flex;
+  justify-content: center;
+}
+.ten .cell-market{
+  color: #000;
+}
+.ten .cell-link {
+  color: #000;
+}      
+.ten a {
+  color: #0066cc;
+}
+.ten a:hover {
+  color: #80bfff;
+}
+.ten a:visited {
+  color: #0066cc;
+}
 /*FOOTER STYLES*/
 footer {
   position: fixed;
